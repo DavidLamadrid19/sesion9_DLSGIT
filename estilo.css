@@ -1,0 +1,81 @@
+
+/* Estilos generales */
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+}
+
+
+/* Estilos para el encabezado */
+
+
+header {
+    background-color: #b30000;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+/* Estilos para la barra de navegación */
+
+
+nav {
+    background-color: #222;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+
+/* Estilos para la sección principal */
+
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.container h2 {
+    color: #b30000;
+}
+
+.container p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Clase adicional */
+.destacado {
+    border: 3px solid #ffcc00;
+}
+
+
+/* Estilos para el pie de página */
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
